@@ -1,0 +1,28 @@
+{
+ "attach_print": 0,
+ "channel": "System Notification",
+ "creation": "2024-02-20 14:18:11.135566",
+ "days_in_advance": 0,
+ "docstatus": 0,
+ "doctype": "Notification",
+ "document_type": "Packages",
+ "enabled": 1,
+ "event": "New",
+ "idx": 0,
+ "is_standard": 1,
+ "message": "<h1>New Package Data </h1>\n\n<h2>Details</h2>\n<ul>\n<li>Name : {{doc.package_name}}</li>\n<li>Travel Agent : {{doc.travel_agent}}</li>\n<li>Description : {{doc.desc}}</li>",
+ "modified": "2024-02-20 14:18:11.135566",
+ "modified_by": "Administrator",
+ "module": "Tripwe",
+ "name": "Package {{doc.name}} added",
+ "owner": "Administrator",
+ "recipients": [
+  {
+   "receiver_by_document_field": "owner",
+   "receiver_by_role": "Administrator"
+  }
+ ],
+ "send_system_notification": 0,
+ "send_to_all_assignees": 0,
+ "subject": "Packages {{doc.name}}"
+}

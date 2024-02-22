@@ -1,0 +1,30 @@
+{
+ "attach_print": 0,
+ "channel": "Email",
+ "creation": "2024-02-20 09:11:43.731192",
+ "days_in_advance": 0,
+ "docstatus": 0,
+ "doctype": "Notification",
+ "document_type": "Packages",
+ "enabled": 1,
+ "event": "Save",
+ "idx": 0,
+ "is_standard": 1,
+ "message": "<h3>Test from package DocType<h3>\n\n<p>Test email notification from Package {{doc.name}} </p>\n",
+ "modified": "2024-02-20 11:41:32.832255",
+ "modified_by": "Administrator",
+ "module": "Tripwe",
+ "name": "Package",
+ "owner": "Administrator",
+ "recipients": [
+  {
+   "receiver_by_document_field": "",
+   "receiver_by_role": "Administrator"
+  }
+ ],
+ "send_system_notification": 1,
+ "send_to_all_assignees": 0,
+ "sender": "",
+ "sender_email": "",
+ "subject": "value of {{doc.name}}  has been addNew "
+}

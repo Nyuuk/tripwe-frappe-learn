@@ -1,0 +1,133 @@
+{
+ "actions": [],
+ "allow_guest_to_view": 1,
+ "allow_rename": 1,
+ "autoname": "format:{######}",
+ "creation": "2024-02-19 16:23:30.583138",
+ "doctype": "DocType",
+ "engine": "InnoDB",
+ "field_order": [
+  "package_name",
+  "travel_agent",
+  "desc",
+  "itinerary",
+  "duration",
+  "prce",
+  "categories",
+  "location",
+  "maps",
+  "video",
+  "preview",
+  "route"
+ ],
+ "fields": [
+  {
+   "fieldname": "package_name",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Name",
+   "length": 255,
+   "reqd": 1
+  },
+  {
+   "fieldname": "travel_agent",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Travel Agent",
+   "length": 255,
+   "reqd": 1
+  },
+  {
+   "fieldname": "itinerary",
+   "fieldtype": "Data",
+   "label": "Itinerary",
+   "length": 1000
+  },
+  {
+   "fieldname": "duration",
+   "fieldtype": "Duration",
+   "label": "Duration",
+   "reqd": 1
+  },
+  {
+   "fieldname": "categories",
+   "fieldtype": "Table",
+   "label": "Categories",
+   "options": "Categories",
+   "reqd": 1
+  },
+  {
+   "fieldname": "location",
+   "fieldtype": "Link",
+   "in_list_view": 1,
+   "label": "Location",
+   "options": "Locations",
+   "reqd": 1
+  },
+  {
+   "fieldname": "maps",
+   "fieldtype": "Geolocation",
+   "label": "Maps",
+   "length": 1000
+  },
+  {
+   "fieldname": "video",
+   "fieldtype": "Data",
+   "label": "Video",
+   "length": 1000
+  },
+  {
+   "fieldname": "preview",
+   "fieldtype": "Attach Image",
+   "label": "Preview",
+   "reqd": 1
+  },
+  {
+   "fieldname": "prce",
+   "fieldtype": "Currency",
+   "in_list_view": 1,
+   "label": "Price",
+   "non_negative": 1,
+   "precision": "2",
+   "reqd": 1
+  },
+  {
+   "fieldname": "route",
+   "fieldtype": "Data",
+   "label": "Route"
+  },
+  {
+   "fieldname": "desc",
+   "fieldtype": "Data",
+   "label": "Description",
+   "length": 1000
+  }
+ ],
+ "has_web_view": 1,
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2024-02-21 16:59:42.809315",
+ "modified_by": "Administrator",
+ "module": "Tripwe",
+ "name": "Packages",
+ "naming_rule": "Expression (old style)",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "route": "packages",
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}

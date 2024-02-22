@@ -1,0 +1,45 @@
+{
+ "charts": [],
+ "content": "[{\"id\":\"j3DRZ7QDZo\",\"type\":\"header\",\"data\":{\"text\":\"<span class=\\\"h4\\\">Tripwe</span>\",\"col\":12}},{\"id\":\"PBgFoX0FFT\",\"type\":\"number_card\",\"data\":{\"number_card_name\":\"Jumlah paket\",\"col\":4}}]",
+ "creation": "2024-02-19 16:56:48.781078",
+ "custom_blocks": [],
+ "docstatus": 0,
+ "doctype": "Workspace",
+ "for_user": "",
+ "hide_custom": 0,
+ "icon": "external-link",
+ "idx": 0,
+ "indicator_color": "green",
+ "is_hidden": 0,
+ "label": "Tripwe",
+ "links": [
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Packages",
+   "link_count": 0,
+   "link_to": "Packages",
+   "link_type": "DocType",
+   "onboard": 1,
+   "type": "Link"
+  }
+ ],
+ "modified": "2024-02-21 14:09:39.972349",
+ "modified_by": "Administrator",
+ "module": "Tripwe",
+ "name": "Tripwe",
+ "number_cards": [
+  {
+   "label": "Jumlah paket",
+   "number_card_name": "List Of Packages"
+  }
+ ],
+ "owner": "Administrator",
+ "parent_page": "",
+ "public": 1,
+ "quick_lists": [],
+ "roles": [],
+ "sequence_id": 28.0,
+ "shortcuts": [],
+ "title": "Tripwe"
+}
